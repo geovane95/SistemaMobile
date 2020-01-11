@@ -8,7 +8,7 @@ const HttpClient = {
     });
   },
 };
-// eslint-disable-next-line no-shadow
+
 async function login({login, senha}) {
   return HttpClient.post(
     'https://instalura-api.herokuapp.com/api/public/login',
